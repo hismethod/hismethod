@@ -5,6 +5,6 @@ app.get('/', function(req, res){
     res.send('Hello world');
 });
 
-app.listen(3000, function(req, res){
+app.listen(80, function(req, res){
     console.log('running');
 });
